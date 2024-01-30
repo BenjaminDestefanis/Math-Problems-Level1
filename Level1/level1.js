@@ -56,3 +56,13 @@ const arrowArea = (sideA, sideB) => {
     // tu codigo AQUI:
 
 }
+
+// 6. Estan en orden?
+
+const isInOrder = (arr) => {
+    // la funcion recibe una array con numeros , debe retornar un valor boleano. Debe retornar
+    // true si los numeros se encuentran en orden, y false si los numeros no estan en orden
+    // EJ: [45,78,54,99] = false    /    [45,88,89,94] = true
+    // tu codigo AQUI:
+    
+}
