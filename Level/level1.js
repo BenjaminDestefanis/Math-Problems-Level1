@@ -14,4 +14,35 @@ const convertCelsiuToFahrenheit = (celsius) => {
 }
 
 
+// 2. Un 2 Muy Potenciado
+
+const powerOfTwo = (num) => {
+    // La funcion recibe un numero entero (no negativo) y debe retornar una lista (array)
+    // que contega todas las potencias de 2 (ej: 2**4, 2**3 etc.) elevado a "num". 
+    // Debe incluir tambien el exponente 0. 
+    // tu codigo AQUI:
+
+}
+
+// 3. El sumador
+
+const summation = (number) => {
+    // La funcion recibe un numero positivo, debe returnar el resultado de la suma de cada numero 
+    // que hacen que sea "number"
+    // EJ: number = 7 - debe devolver = 7 + 6 + 5 + 4 + 3 + 2 + 1 = 28
+    // Tu codigo AQUI:
+
+}
+
+
+// 4. Operaciones Matematicas Basicas
+
+const basicMathOperations = (operation, num1, num2) => {
+    // La funcion recibe un operador y 2 numeros, dependiedo cual sea el operador que recibe
+    // debe retornar el resultado de la operacion .
+    // EJ: operation = "+" nume1 = 4, num2 = 10 . retornara 14
+    // tu codigo AQUI: 
+    
+}
+
 
