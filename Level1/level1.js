@@ -46,3 +46,13 @@ const basicMathOperations = (operation, num1, num2) => {
 }
 
 
+// 5. Area de una Flecha
+
+const arrowArea = (sideA, sideB) => {
+    // La funcion debe retornar el area de la superficie de de una flecha. Recibe la base (sideA)
+    // y la altura (sideB). Debes utilizar la formula para obetener la superficie de un triangulo.
+    // Recueda ver la siguiente imagen que se encuentra en la carpeta "images" para poder realizar 
+    // para poder realizar el test correctamente (./images/arrowArea.png)
+    // tu codigo AQUI:
+
+}
