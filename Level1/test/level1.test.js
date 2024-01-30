@@ -38,3 +38,14 @@ describe('3. summation(number)', () => {
         expect(summation(7)).toBe(28)
     })
 })
+
+//Test 4 
+
+describe('4. basicMathOperations(operation, num1, num2)', () => {
+    it("Dependiendo que cual sea el operador, la funcion debe realizar la operacion y retornar el resultado.", () => {
+        expect(basicMathOperations("+", 4, 28)).toBe(32)
+        expect(basicMathOperations("-", 50, 36)).toBe(14)
+        expect(basicMathOperations("/", 42, 2)).toBe(21)
+        expect(basicMathOperations("*", 8, 3)).toBe(24)
+    })
+})

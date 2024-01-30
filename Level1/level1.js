@@ -22,18 +22,9 @@ const powerOfTwo = (num) => {
     // que contega todas las potencias de 2 (ej: 2**4, 2**3 etc.) elevado a "num". 
     // Debe incluir tambien el exponente 0. 
     // tu codigo AQUI:
-    let count = 0
-    while (num !== -1) {
-        count = count + 2**num
-        num = num - 1
-    }
-
-    console.log(count)
-    return count
 
 }
 
-powerOfTwo(0)
 
 // 3. El sumador
 
@@ -53,7 +44,6 @@ const basicMathOperations = (operation, num1, num2) => {
     // debe retornar el resultado de la operacion .
     // EJ: operation = "+" nume1 = 4, num2 = 10 . retornara 14
     // tu codigo AQUI: 
-    
 }
 
 
