@@ -13,7 +13,7 @@ const convertCelsiusToFahrenheit = (celsius) => {
 
 }
 
-convertCelsiusToFahrenheit("lll")
+
 
 // 2. Un 2 Muy Potenciado
 
