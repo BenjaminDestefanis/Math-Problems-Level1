@@ -22,8 +22,18 @@ const powerOfTwo = (num) => {
     // que contega todas las potencias de 2 (ej: 2**4, 2**3 etc.) elevado a "num". 
     // Debe incluir tambien el exponente 0. 
     // tu codigo AQUI:
+    let count = 0
+    while (num !== -1) {
+        count = count + 2**num
+        num = num - 1
+    }
+
+    console.log(count)
+    return count
 
 }
+
+powerOfTwo(0)
 
 // 3. El sumador
 
