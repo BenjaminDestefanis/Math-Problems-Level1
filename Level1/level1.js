@@ -4,7 +4,7 @@
 
 // 1. Convert Celsius for Faherenhei
 
-const convertCelsiuToFahrenheit = (celsius) => {
+const convertCelsiusToFahrenheit = (celsius) => {
     // La formula para convertir de celsius a Fahrenhei es la temperatura en Celsius
     // multiplaco por 9/5, mas 32
     // La funcion recive los celcius (numero positivo), esta debe retornar los celcius 
@@ -13,6 +13,7 @@ const convertCelsiuToFahrenheit = (celsius) => {
 
 }
 
+convertCelsiusToFahrenheit("lll")
 
 // 2. Un 2 Muy Potenciado
 
@@ -64,5 +65,18 @@ const isInOrder = (arr) => {
     // true si los numeros se encuentran en orden, y false si los numeros no estan en orden
     // EJ: [45,78,54,99] = false    /    [45,88,89,94] = true
     // tu codigo AQUI:
-    
+
+}
+
+
+
+
+
+module.exports = {
+    convertCelsiusToFahrenheit,
+    powerOfTwo,
+    summation,
+    basicMathOperations,
+    arrowArea,
+    isInOrder
 }

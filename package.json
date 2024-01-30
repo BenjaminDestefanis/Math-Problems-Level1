@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "description": "Math problems with Javascrit and Jest",
   "main": "index.js",
+
   "scripts": {
-    "test": "test"
+    "test": "jest"
   },
   "author": "Benjamin Destefanis",
   "license": "MIT",
