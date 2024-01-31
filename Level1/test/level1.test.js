@@ -4,7 +4,8 @@ const {
     summation,
     basicMathOperations,
     arrowArea,
-    isInOrder
+    isInOrder,
+    costPrice
 } = require("../level1.js")
 
 
@@ -49,3 +50,15 @@ describe('4. basicMathOperations(operation, num1, num2)', () => {
         expect(basicMathOperations("*", 8, 3)).toBe(24)
     })
 })
+
+
+//Test 5
+
+describe('5. arrowArea(sideA, sideB', () => {
+    it("Debe retornar el valor(numero) de la superficie de la flecha(triangulo).", () => {
+        const sideA = 24
+        const sideB = 35
+        expect(arrowArea(sideA, sideB)).toBe(210)
+    })
+}) 
+

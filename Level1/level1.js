@@ -90,5 +90,6 @@ module.exports = {
     summation,
     basicMathOperations,
     arrowArea,
-    isInOrder
+    isInOrder,
+    costPrice
 }
