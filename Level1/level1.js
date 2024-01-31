@@ -69,6 +69,18 @@ const isInOrder = (arr) => {
 }
 
 
+// 7. Calcula el costo total
+
+const costPrice = (litres, pricePerLitres) => {
+    // La funcion recibe una cantidad de litros (numero) y el precio por litro (numero).
+    // Debe retornar el precio final (numero) 
+    // Tener en cuenta lo siguiente : 
+    // Las compras de 2 o mas litros obtienen un descuento de 5 centimos por litro
+    // las compras de 4 o mas litros obtienen un descuento de 10 centimos por litro
+    // y asi sucesivamente cada 2 litros hasta un descuento maximo de 25 centimos por litro.
+}
+
+
 
 
 
