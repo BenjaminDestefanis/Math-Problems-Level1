@@ -59,6 +59,24 @@ describe('5. arrowArea(sideA, sideB', () => {
         const sideA = 24
         const sideB = 35
         expect(arrowArea(sideA, sideB)).toBe(210)
+        expect(arrowArea(15, 23)).toBe()
     })
 }) 
+
+
+//Test 6 
+
+describe('6. isInOrder(arr)', () => {
+    it("Debe retornar true si los numeros recibidos estan en orden, si no debe retornar false.", () => {
+        const arr1 = [1,23,25,78,84,89,93,150]
+        const arr2 = [48,54,56,33,78,89]
+        const arr3 = [1,21,28,46,78,80,85,92]
+            expect(isInOrder(arr1)).toBe(true)
+            expect(isInOrder(arr2)).toBe(false)
+            expect(isInOrder(arr3)).toBe(true)
+    })
+})
+
+
+
 
