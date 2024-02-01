@@ -1,7 +1,5 @@
 // List of problems
 
-
-
 // 1. Convert Celsius for Faherenhei
 
 const convertCelsiusToFahrenheit = (celsius) => {
@@ -13,8 +11,6 @@ const convertCelsiusToFahrenheit = (celsius) => {
 
 }
 
-
-
 // 2. Un 2 Muy Potenciado
 
 const powerOfTwo = (num) => {
@@ -24,7 +20,6 @@ const powerOfTwo = (num) => {
     // tu codigo AQUI:
 
 }
-
 
 // 3. El sumador
 
@@ -36,7 +31,6 @@ const summation = (number) => {
 
 }
 
-
 // 4. Operaciones Matematicas Basicas
 
 const basicMathOperations = (operation, num1, num2) => {
@@ -45,7 +39,6 @@ const basicMathOperations = (operation, num1, num2) => {
     // EJ: operation = "+" nume1 = 4, num2 = 10 . retornara 14
     // tu codigo AQUI: 
 }
-
 
 // 5. Area de una Flecha
 
@@ -68,7 +61,6 @@ const isInOrder = (arr) => {
 
 }
 
-
 // 7. Calcula el costo total
 
 const costPrice = (litres, pricePerLitres) => {
@@ -78,6 +70,12 @@ const costPrice = (litres, pricePerLitres) => {
     // Las compras de 2 o mas litros obtienen un descuento de 5 centimos por litro
     // las compras de 4 o mas litros obtienen un descuento de 10 centimos por litro
     // y asi sucesivamente cada 2 litros hasta un descuento maximo de 25 centimos por litro.
+}
+
+// 8. Chequear el factor
+
+const checkFactor = (base, factor) => {
+
 }
 
 

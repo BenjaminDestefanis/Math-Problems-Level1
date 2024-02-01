@@ -59,7 +59,7 @@ describe('5. arrowArea(sideA, sideB', () => {
         const sideA = 24
         const sideB = 35
         expect(arrowArea(sideA, sideB)).toBe(210)
-        expect(arrowArea(15, 23)).toBe()
+        expect(arrowArea(15, 23)).toBe(86.25)
     })
 }) 
 
@@ -76,6 +76,8 @@ describe('6. isInOrder(arr)', () => {
             expect(isInOrder(arr3)).toBe(true)
     })
 })
+
+//Test 7
 
 
 
