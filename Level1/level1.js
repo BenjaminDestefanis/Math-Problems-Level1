@@ -75,9 +75,17 @@ const costPrice = (litres, pricePerLitres) => {
 // 8. Chequear el factor
 
 const checkFactor = (base, factor) => {
-
+    // La funcion recive 2 numeros (base y factor), la funcion de be probar si el factor
+    // es un factor de base , y retornar true si lo es, si no , retornar false.
 }
 
+// 9. Es un numero Primo?
+
+const isPrime = (num) => {
+    // La function recibe un numero , debe retornar true o false dependoendo si
+    // el numero es primo o no.
+    // Recordemos que uno nomero primo
+}
 
 
 
@@ -90,5 +98,7 @@ module.exports = {
     basicMathOperations,
     arrowArea,
     isInOrder,
-    costPrice
+    costPrice,
+    checkFactor,
+    isPrime
 }

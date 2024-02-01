@@ -79,6 +79,13 @@ describe('6. isInOrder(arr)', () => {
 
 //Test 7
 
+/* describe('7. costPrice(litres, pricePerLitres)', () => {
+    it("Debe retornar el precio final con el escuento aplicado", () => {
+
+    })
+}) */
+
+//Test 8
 
 
 
