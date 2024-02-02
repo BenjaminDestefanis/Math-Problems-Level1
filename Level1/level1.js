@@ -70,6 +70,8 @@ const costPrice = (litres, pricePerLitres) => {
     // Las compras de 2 o mas litros obtienen un descuento de 5 centimos por litro
     // las compras de 4 o mas litros obtienen un descuento de 10 centimos por litro
     // y asi sucesivamente cada 2 litros hasta un descuento maximo de 25 centimos por litro.
+    // tu codigo AQUI:
+
 }
 
 // 8. Chequear el factor
@@ -77,6 +79,8 @@ const costPrice = (litres, pricePerLitres) => {
 const checkFactor = (base, factor) => {
     // La funcion recive 2 numeros (base y factor), la funcion de be probar si el factor
     // es un factor de base , y retornar true si lo es, si no , retornar false.
+    // tu codigo AQUI:
+
 }
 
 // 9. Es un numero Primo?
@@ -85,7 +89,18 @@ const isPrime = (num) => {
     // La function recibe un numero , debe retornar true o false dependiendo si
     // el numero es primo o no.
     // Recordemos que los numeros primos son aquellos que solo son divisibles entre ellos mismos y
-    // el numero 1, si intentamsos dividirlos por cualquier otro numero , el resultado no es entero
+    // el numero 1, si intentamsos dividirlos por cualquier otro numero , el resultado no es entero.
+    // tu codigo AQUI:
+
+}
+
+// 10. Suma del Cuadrado
+
+const squareSum = (numbers) => {
+    // La funcion recibe array compuesto por numeros, debe retornar la suma de esos numeros 
+    // potenciados al cuadrado.
+    // tu codigo AQUI:
+    
 }
 
 
@@ -101,5 +116,6 @@ module.exports = {
     isInOrder,
     costPrice,
     checkFactor,
-    isPrime
+    isPrime,
+    squareSum
 }

@@ -7,7 +7,8 @@ const {
     isInOrder,
     costPrice,
     checkFactor,
-    isPrime
+    isPrime,
+    squareSum
 } = require("../level1.js")
 
 
@@ -89,7 +90,7 @@ describe('6. isInOrder(arr)', () => {
 
 //Test 8
 
-describe('7. checkFactor(base, factor)', () => {
+describe('8. checkFactor(base, factor)', () => {
     it("Debe averiguar si el si es factro de la base.", () => {
         expect(checkFactor(2450, 5)).toBe(true)
         expect(checkFactor(63, 7)).toBe(true)
@@ -100,7 +101,7 @@ describe('7. checkFactor(base, factor)', () => {
 
 //Test 9
 
-describe("isPrim(num)", () => {
+describe('9. isPrim(num)', () => {
     it("Debe retornar true o false dependiendo si es un numero primo o no.", () => {
         expect(isPrime(17)).toBe(true)
         expect(isPrime(59)).toBe(true)
@@ -109,5 +110,14 @@ describe("isPrim(num)", () => {
     })
 })
 
+
+//Test 10 
+
+describe('10 .squareSum(numbers)', () => {
+    it("Debe retornar la suma total de los numeros al cuadrado.", () => {
+        expect(squareSum([2,7,6,4])).toBe(105)
+        expect(squareSum([15,22])).toBe(709)
+    })
+})
 
 
