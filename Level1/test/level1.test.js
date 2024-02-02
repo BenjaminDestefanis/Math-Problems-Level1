@@ -5,7 +5,9 @@ const {
     basicMathOperations,
     arrowArea,
     isInOrder,
-    costPrice
+    costPrice,
+    checkFactor,
+    isPrime
 } = require("../level1.js")
 
 
@@ -81,11 +83,31 @@ describe('6. isInOrder(arr)', () => {
 
 /* describe('7. costPrice(litres, pricePerLitres)', () => {
     it("Debe retornar el precio final con el escuento aplicado", () => {
-
+        
     })
 }) */
 
 //Test 8
+
+describe('7. checkFactor(base, factor)', () => {
+    it("Debe averiguar si el si es factro de la base.", () => {
+        expect(checkFactor(2450, 5)).toBe(true)
+        expect(checkFactor(63, 7)).toBe(true)
+        expect(checkFactor(10, 2)).toBE(true)
+    })
+})
+
+
+//Test 9
+
+describe("isPrim(num)", () => {
+    it("Debe retornar true o false dependiendo si es un numero primo o no.", () => {
+        expect(isPrime(17)).toBe(true)
+        expect(isPrime(59)).toBe(true)
+        expect(isPrime(88)).toBe(false)
+        expect(isPrime(21)).toBe(false)
+    })
+})
 
 
 

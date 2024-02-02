@@ -82,9 +82,10 @@ const checkFactor = (base, factor) => {
 // 9. Es un numero Primo?
 
 const isPrime = (num) => {
-    // La function recibe un numero , debe retornar true o false dependoendo si
+    // La function recibe un numero , debe retornar true o false dependiendo si
     // el numero es primo o no.
-    // Recordemos que uno nomero primo
+    // Recordemos que los numeros primos son aquellos que solo son divisibles entre ellos mismos y
+    // el numero 1, si intentamsos dividirlos por cualquier otro numero , el resultado no es entero
 }
 
 
