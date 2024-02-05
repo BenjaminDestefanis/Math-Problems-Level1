@@ -29,3 +29,14 @@ const countDivisor = (n) => {
     // tu codigo AQUI:
 }
 
+// 4. Cuantas ovejas perdimos?
+
+const lostSheep = (friday, saturday, total) => {
+    // La funcion recibe 3 argumentos , 2 matrizes y un numero. 
+    // Cada array contiene numeros, que son los grupos de ovejas que regresaron a la granja,
+    // un grupo pertenece a las que volvieron el viernes y el otro a las que volvieron el 
+    // sabada. Luego el tercer argumento , es el total de ovejas que tenia registrado el 
+    // granjero. La funcion debe retornar la cantidad de ovejas que no regresaron a la granja.
+    // tu codigo AQUI:
+}
+
