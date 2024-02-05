@@ -19,3 +19,13 @@ const findRemeinder = (num1, num2) => {
     // tu codigo AQUI:
 }
 
+// 3. Contador de divisores
+
+const countDivisor = (n) => {
+    // La funcion recibe un numero, debe retornar la cantidad de divisores, por los cuales, al
+    // realizar la division , quede como resto 0. 
+    // EJ: n = 6 . retorna 4 . tiene 4 divisores (6,3,2,1)
+    // Si el numero recibido es 0 retornar el mensaje "Error"
+    // tu codigo AQUI:
+}
+
