@@ -25,3 +25,15 @@ describe("2. findRemeinder(num1, num2)", () => {
         expect(findRemeinder(4,12)).toBe(0)
     })
 })
+
+//Test 3 
+
+describe("3. countDivisor(n)", () => {
+    it("Debe retornar la cantida de divisores", () => {
+        expect(countDivisor(6)).toBe(4)
+        expect(countDivisor(8)).toBe(4)
+        expect(countDivisor(13)).toBe(2)
+    })
+})
+
+
