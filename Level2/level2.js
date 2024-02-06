@@ -63,5 +63,6 @@ module.exports = {
     firstFactorial,
     findRemeinder,
     countDivisor,
-    lostSheep
+    lostSheep,
+    countPizzas
 }

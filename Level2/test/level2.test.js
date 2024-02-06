@@ -2,7 +2,8 @@ const {
     firstFactorial,
     findRemeinder,
     countDivisor,
-    lostSheep
+    lostSheep,
+    countPizzas
 } = require("../level2")
 
 
@@ -36,4 +37,12 @@ describe("3. countDivisor(n)", () => {
     })
 })
 
+
+//Test 4
+
+/* describe("4. lostSheep(friday, saturday, total)", () => {
+    it("Debe retornar la cantidad de ovejas que no regresaron a la granja.", () => {
+        expect(lostSheep()).toBe()
+    })
+}) */
 
