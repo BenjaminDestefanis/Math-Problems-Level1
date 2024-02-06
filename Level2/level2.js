@@ -40,6 +40,24 @@ const lostSheep = (friday, saturday, total) => {
     // tu codigo AQUI:
 }
 
+// 5. Cuantas Pizzas comemos?
+
+const countPizzas = (array) => {
+    // La funcion recibe una matriz que contiene numeros. Estos indican
+    // el nivel de hambre que tiene la persona ( 0 - 100). Dependiendo el nivel de hambre
+    // que tiene la persona, sera la cantidad de poriones que comera. (0 - 30 [2 porciones], 
+    // 31 - 50 [5 porciones], 51 - 80 [8 porciones], 81 - 100 [12 porciones]).
+    // La funcion debe retornar un array que contenga: La cantidad de personas que van a cenar.
+    // la cantidad de pizzas que se comeran (1 pizza = 8 porciones)
+    // indicar con un valor booleano si sobran porciones o no
+    // tu codigo AQUI:
+
+
+}
+
+
+
+
 
 module.exports = {
     firstFactorial,
