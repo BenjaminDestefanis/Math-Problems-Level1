@@ -15,3 +15,13 @@ describe("1. firstFactorial(num)", () => {
         expect(firstFactorial(0)).toBe("Numero negativo")
     })
 })
+
+//Test 2
+
+describe("2. findRemeinder(num1, num2)", () => {
+    it("Debe retornar el resto de la divsion entre ambos numeros (num1, num2)", () => {
+        expect(findRemeinder(5,3)).toBe(2)
+        expect(findRemeinder(9,0)).toBe("No es posible dividir entre 0")
+        expect(findRemeinder(4,12)).toBe(0)
+    })
+})
