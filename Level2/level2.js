@@ -55,6 +55,14 @@ const countPizzas = (array) => {
 
 }
 
+// 6. Numeors primos del 1 al N
+
+const primesUpToN = (N) => {
+    // la funcion recibe un numero , debe retornar una array que contenga todos los 
+    // numero primos que podemos hallar desde el numero 1 , hasta el numero que hemos recibido
+    // como (N) , debemos colocarlos en un array y retornar el array.
+    // tu codigo AQUI:
+}
 
 
 
@@ -64,5 +72,6 @@ module.exports = {
     findRemeinder,
     countDivisor,
     lostSheep,
-    countPizzas
+    countPizzas,
+    primesUpToN
 }
