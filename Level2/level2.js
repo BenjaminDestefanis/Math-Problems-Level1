@@ -64,6 +64,30 @@ const primesUpToN = (N) => {
     // tu codigo AQUI:
 }
 
+// 7. Obtener promedio
+
+const averageYear = (year) => {
+    // La funcion recibe un array que contiene 12 numero, cada uno relacionado a cada
+    // mes del año, la funcion debe retornar el promedio del año
+    // tu codigo AQUI:
+
+}
+
+// 8. Suma de dominos
+
+const dotsOnDominoBones = (n) => {
+    // La funcion recibe un numero que sera el numero maximo que pueden contener las 
+    // fichas de domino. Cada ficha tiene 2 valores 
+    // La funcion debe retornar la suma total de estos valores
+    // PD: las secuencuas de las fichas no pueden repetirse
+    // EJ: n = 2  -   [0 | 1] - [0 | 2] - [1 | 1] - [1 | 2] - [2 | 2]
+    // Total = 1+2+2+3+4 = 12
+    // tu codigo AQUI:
+
+}
+
+
+
 
 
 
@@ -73,5 +97,7 @@ module.exports = {
     countDivisor,
     lostSheep,
     countPizzas,
-    primesUpToN
+    primesUpToN,
+    averageYear,
+    dotsOnDominoBones
 }
