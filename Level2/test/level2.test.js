@@ -45,9 +45,16 @@ describe("4. lostSheep(friday, saturday, total)", () => {
         expect(lostSheep([2,4,6],[2,9],30)).toBe(7)
         expect(lostSheep([2,2,1],[23,4]),32).toBe(0)
         expect(lostSheep([4,6],[5],50)).toBe(35)
-
     })
+    it("Debe retonar el mensaje de error.", () => {
+        expect(lostSheep([3,5],[8],10)).toBe("Registro equivocado!")
+    })
+
+    
 }) 
+
+//Test 5
+
 
 
 
