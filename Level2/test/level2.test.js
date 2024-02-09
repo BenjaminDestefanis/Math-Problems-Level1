@@ -3,7 +3,8 @@ const {
     findRemeinder,
     countDivisor,
     lostSheep,
-    countPizzas
+    countPizzas,
+    primesUpToN
 } = require("../level2")
 
 
@@ -55,8 +56,30 @@ describe("4. lostSheep(friday, saturday, total)", () => {
 
 //Test 5
 
+/* describe("5. countPizzas(array)", () => {
 
+    const dinnersCount = [20,60,80,40,10]
+    it("Debe retornar la cantidad de comensales.", () => {
+        expect(countPizzas(dinnersCount)).toBe()
+    })
+}) */
 
+//Test 6
+
+    describe("6. primesUpToN(N)", () => {
+        test.todo("Debe retornar un array que contenga todos los numeros primos que encontro.",)
+            const case1 = [23, 4, 9, 6]
+            const case2 = [45, 1, 33, 56, 8]
+            const case3 = [5, 7, 19, 29]
+            const nPrimesCase1 = [23]
+            const nPrimesCase2 = "No se hallaron numeros (P)."
+            const nPrimesCase3 = [5, 7, 19, 29]
+
+            expect(primesUpToN(case1)).toEqual(nPrimesCase1)
+            expect(primesUpToN(case2)).toEqual(nPrimesCase2)
+            expect(primesUpToN(case3)).toEqual(nPrimesCase3)
+            
+    })
 
 
 

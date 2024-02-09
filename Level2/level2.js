@@ -63,6 +63,7 @@ const primesUpToN = (N) => {
     // la funcion recibe un numero , debe retornar una array que contenga todos los 
     // numero primos que podemos hallar desde el numero 1 , hasta el numero que hemos recibido
     // como (N) , debemos colocarlos en un array y retornar el array.
+    // Si no hay numeros primos, retornar el mensaje: "No se hallaron numeros (P)."
     // tu codigo AQUI:
 }
 
