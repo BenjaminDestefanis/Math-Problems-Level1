@@ -86,6 +86,24 @@ const dotsOnDominoBones = (n) => {
 
 }
 
+// 9. Descuento!
+
+const applyingOfferts = (prices, discount1, discount2, discount3) => {
+    // La funcion recibe 4 argumentos, un array que contiene precios (tipo float)
+    // , y luegro 3 numeros, que son descuentos que se aplicarian a los precios
+    // la funcion debe retornar un array, que contenga 4 matrizes , 
+    // La primer matriz, que contenga los precios que no se les puede aplicar descuento,
+    // el segundo, los precios  finales , con el primer descuento aplicado
+    // el tercero, los precios  finales , con el segundo descuento aplicado
+    // el cuarto, los precios finales, con el tercer descuento aplicado.
+    // Los descuentos se aplican de esta manera :  si supera los 20.000$ , 
+    // se aplica el primer descuento [dicount1], si supera los 50.000$ se aplica el
+    // segundo descuento [discount2], y si supera los 80.000$ se aplica el tercer
+    // descuento [discount3]. 
+    // PD: los precios finales tienen que estar todos redondeados
+    // tu codigo AQUI:
+} 
+
 
 
 
@@ -99,5 +117,6 @@ module.exports = {
     countPizzas,
     primesUpToN,
     averageYear,
-    dotsOnDominoBones
+    dotsOnDominoBones,
+    applyingOfferts
 }
