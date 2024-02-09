@@ -55,7 +55,7 @@ const countPizzas = (array) => {
 
 }
 
-// 6. Numeors primos del 1 al N
+// 6. Numeros primos del 1 al N
 
 const primesUpToN = (N) => {
     // la funcion recibe un numero , debe retornar una array que contenga todos los 
