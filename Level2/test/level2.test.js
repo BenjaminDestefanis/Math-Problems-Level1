@@ -40,11 +40,16 @@ describe("3. countDivisor(n)", () => {
 
 //Test 4
 
-/* describe("4. lostSheep(friday, saturday, total)", () => {
+describe("4. lostSheep(friday, saturday, total)", () => {
     it("Debe retornar la cantidad de ovejas que no regresaron a la granja.", () => {
-        expect(lostSheep()).toBe()
+        expect(lostSheep([2,4,6],[2,9],30)).toBe(7)
+        expect(lostSheep([2,2,1],[23,4]),32).toBe(0)
+        expect(lostSheep([4,6],[5],50)).toBe(35)
+
     })
-}) */
+}) 
+
+
 
 
 
