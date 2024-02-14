@@ -69,9 +69,10 @@ const primesUpToN = (N) => {
 
 // 7. Obtener promedio
 
-const averageYear = (year) => {
+const averageYear = (years) => {
     // La funcion recibe un array que contiene 12 numero, cada uno relacionado a cada
     // mes del año, la funcion debe retornar el promedio del año
+    // El promedio final debe ser devuelto en formato INT
     // tu codigo AQUI:
 
 }
