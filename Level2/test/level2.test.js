@@ -4,7 +4,9 @@ const {
     countDivisor,
     lostSheep,
     countPizzas,
-    primesUpToN
+    primesUpToN,
+    averageYear,
+    dotsOnDominoBones
 } = require("../level2")
 
 
@@ -81,5 +83,25 @@ describe("4. lostSheep(friday, saturday, total)", () => {
             
     })
 
+//Test 7
+    describe("7. averageYear(years)", () => {
+        test.todo("Debe retornar el promedio del año.", () => {
+            const year1 = [48,23,44,78,11,10,12,13,45,88,47,14]
+            const year2 = [5,56,44,78,11,81,12,13,45,44,47,22]
+            const year3 = [5,56,15,78,11,92,12,13,30,44,47,71]
+
+            expect(averageYear(year1)).toBe(36)
+            expect(averageYear(year2)).toBe(38)
+            expect(averageYear(year3)).toBe(39)
+        })
+    })
+
+//Test 8 
+    describe("8. dotsOnDominoBones(n)", () => {
+        test.todo("Debe retornar la suma total de los valores de las fichas", () => {
+            expect(dotsOnDominoBones(2)).toBe(12)
+        })
+    })
 
 
+    
