@@ -108,7 +108,6 @@ const applyingOfferts = (prices, discount1, discount2, discount3) => {
     // tu codigo AQUI:
 } 
 
-// new commit 2
 
 
 

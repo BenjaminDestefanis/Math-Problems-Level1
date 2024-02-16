@@ -100,6 +100,7 @@ describe("4. lostSheep(friday, saturday, total)", () => {
     describe("8. dotsOnDominoBones(n)", () => {
         test.todo("Debe retornar la suma total de los valores de las fichas", () => {
             expect(dotsOnDominoBones(2)).toBe(12)
+            expect(dotsOnDominoBones(4)).toBe(60)
         })
     })
 
