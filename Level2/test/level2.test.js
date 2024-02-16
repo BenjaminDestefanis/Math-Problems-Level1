@@ -105,4 +105,9 @@ describe("4. lostSheep(friday, saturday, total)", () => {
     })
 
 
-    
+//Test 9
+    describe("9. applyingOfferts", () => {
+        test.todo("Debe retornar un array con matrices", () => {
+            
+        })
+    })
