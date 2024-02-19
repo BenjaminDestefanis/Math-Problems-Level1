@@ -108,7 +108,15 @@ const applyingOfferts = (prices, discount1, discount2, discount3) => {
     // tu codigo AQUI:
 } 
 
+// 10. Generala!
 
+const letsPlayGeneral = (object) => {
+    // La funcion recibe un objeto que contiene 3 propiedades 
+    // (cada prop contiene, el valor de los 5 dados, que el jugador saco en ese tiro) :
+    // La funcion debe retornar que es lo que obtuvo el jugador en su jugada
+    // Solo corrovorar Escalera - Poker y Generala (Servidos)
+    // play1 : [1, 6, 3, 4, 4], play2 : [], play3 : []
+}
 
 
 
