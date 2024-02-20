@@ -112,10 +112,12 @@ const applyingOfferts = (prices, discount1, discount2, discount3) => {
 
 const letsPlayGeneral = (object) => {
     // La funcion recibe un objeto que contiene 3 propiedades 
-    // (cada prop contiene, el valor de los 5 dados, que el jugador saco en ese tiro) :
+    // (cada prop contiene, el valor de los 5 dados como maximo, que el jugador saco en ese tiro) :
     // La funcion debe retornar que es lo que obtuvo el jugador en su jugada
-    // Solo corrovorar Escalera - Poker y Generala (Servidos)
-    // Ej : play1 : [1, 6, 3, 4, 4], play2 : [], play3 : []
+    // Solo corrovorar Escalera - Poker y Generala 
+    // Ej : play1 : [1,6,3,4,4], play2 : [2,2,4], play3 : [4,3]
+    // final game : [4,4] - [4] - [4] . Cuatros numeros igales = Poker
+    
 }
 
 
