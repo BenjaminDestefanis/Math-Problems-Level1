@@ -24,8 +24,24 @@ const armyGame = (a, b) => {
     
 }
 
-//4. 
+//4. es capicua ? 
 
+
+
+//5. Resolvedor de operacion aritmetica -
+
+const aritmeticProblems = (operation) => {
+    // La funcion recive una operacion que como maximo puede tener sumas - restas - multiplicacion y divisiones
+    // de be retornar el resultadio final de operacion.
+    // PD: Recuerda respetar la jerarquia de las operaciones. Tambien ten en cuenta que to puedes utilizar el metodo
+    // eval() de javascript.
+    // tu codigo aqui:
+
+    return eval(operation)
+
+}
+
+console.log(aritmeticProblems("410+45/4*3"))
 
 
 
