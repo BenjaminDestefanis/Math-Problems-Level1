@@ -43,9 +43,20 @@ const aritmeticProblems = (operation) => {
 
 //6. fibonacci
 
+const fibonacci = (n) => {
+    // Función recursiva para calcular la secuencia de Fibonacci
+  if (n <= 1) {
+    return n;
+  } else {
+    return fibonacci(n - 1) + fibonacci(n - 2);
+  }
+
+  // Testear
+}
 
 
 console.log(aritmeticProblems("410+45/4*3"))
+console.log(fibonacci(45))
 
 
 
