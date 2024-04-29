@@ -41,6 +41,10 @@ const aritmeticProblems = (operation) => {
 
 }
 
+//6. fibonacci
+
+
+
 console.log(aritmeticProblems("410+45/4*3"))
 
 
