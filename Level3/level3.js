@@ -77,6 +77,27 @@ const fibonacciEvenSum = (n) => {
 const largestPrimeFactor = (num) => {
   // La funcion debe obtener el factor primo mas grande del numero recibido
   // tu codigo AQUI:
+
+  let primoMayor = 1
+
+  while (num % 2 === 0){
+    primoMayor = num // corroborar si es divisible y almacenarlo
+    num = num / 2   // reduccion del numero recibido
+  }
+
+  for (let i = 3; i <= Math.sqrt(num); i = i + 2){ // investigar
+    while (num % i === 0){
+      primoMayor = i
+      num = num / i
+    }
+  }
+
+  if (num > 2){
+      primoMayor = num
+    }
+
+  return primoMayor
+
 }
 
 
