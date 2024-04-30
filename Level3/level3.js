@@ -72,6 +72,14 @@ const fibonacciEvenSum = (n) => {
 }
 
 
+// 7. Numero primo mayor
+
+const largestPrimeFactor = (num) => {
+  // La funcion debe obtener el factor primo mas grande del numero recibido
+  // tu codigo AQUI:
+}
+
+
 console.log(aritmeticProblems("410+45/4*3"))
 console.log(fibonacci(45))
 
