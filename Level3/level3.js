@@ -101,6 +101,9 @@ const largestPrimeFactor = (num) => {
 }
 
 
+// 8. 
+
+
 console.log(aritmeticProblems("410+45/4*3"))
 console.log(fibonacci(45))
 
