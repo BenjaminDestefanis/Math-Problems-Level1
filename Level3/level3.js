@@ -41,15 +41,32 @@ const aritmeticProblems = (operation) => {
 
 }
 
-//6. fibonacci
+//6. Suma de pares fibonacci
 
-const fibonacci = (n) => {
-    // Función recursiva para calcular la secuencia de Fibonacci
-  if (n <= 1) {
-    return n;
-  } else {
-    return fibonacci(n - 1) + fibonacci(n - 2);
-  }
+const fibonacciEvenSum = (n) => {
+    // Función recursiva para calcular la suma total de todos los numeros pares
+    // de una sucecion de fibonacci
+    // tu codigo AQUI:
+
+    let initA = 1
+    let initB = 2
+
+    let sumResult = 0
+
+    while(initB <= n){  // Corroborar si n es mayor que el minimo permitido (2)
+      if(initB % 2 === 0){
+        sumResult = sumResult + initB
+      }
+
+      // Sequencia de fibonacci en accion
+      let temp = initB
+      initB = initA + initB
+      initA = temp
+    
+    }
+
+    return sumResult
+
 
   // Testear
 }
