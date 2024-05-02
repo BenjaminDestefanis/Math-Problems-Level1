@@ -101,7 +101,7 @@ const largestPrimeFactor = (num) => {
 }
 
 
-// 8. 
+// 8. Polindromos
 
 
 console.log(aritmeticProblems("410+45/4*3"))
