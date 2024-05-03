@@ -103,6 +103,9 @@ const largestPrimeFactor = (num) => {
 
 // 8. Polindromos
 
+// 9. Triplete de Pitagoras
+
+
 
 console.log(aritmeticProblems("410+45/4*3"))
 console.log(fibonacci(45))
