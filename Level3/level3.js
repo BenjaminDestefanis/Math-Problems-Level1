@@ -105,6 +105,12 @@ const largestPrimeFactor = (num) => {
 
 // 9. Triplete de Pitagoras
 
+const tripleteDePitagoras = (numTotal) => {
+  return numTotal
+}
+
+
+
 
 
 console.log(aritmeticProblems("410+45/4*3"))
