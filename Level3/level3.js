@@ -48,27 +48,6 @@ const fibonacciEvenSum = (n) => {
     // de una sucecion de fibonacci
     // tu codigo AQUI:
 
-    let initA = 1
-    let initB = 2
-
-    let sumResult = 0
-
-    while(initB <= n){  // Corroborar si n es mayor que el minimo permitido (2)
-      if(initB % 2 === 0){
-        sumResult = sumResult + initB
-      }
-
-      // Sequencia de fibonacci en accion
-      let temp = initB
-      initB = initA + initB
-      initA = temp
-    
-    }
-
-    return sumResult
-
-
-  // Testear
 }
 
 
@@ -103,6 +82,10 @@ const largestPrimeFactor = (num) => {
 
 // 8. Polindromos
 
+const polindromes = () => {
+
+}
+
 // 9. Triplete de Pitagoras
 
 const tripleteDePitagoras = (numTotal) => {
@@ -119,5 +102,13 @@ console.log(fibonacci(45))
 
 
 module.exports = {
-    handShake
+    handShake,
+    lowestTriangle,
+    armyGame,
+    aritmeticProblems,
+    fibonacciEvenSum,
+    largestPrimeFactor,
+    polindromes,
+    tripleteDePitagoras
+
 }
