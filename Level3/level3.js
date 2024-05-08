@@ -57,26 +57,6 @@ const largestPrimeFactor = (num) => {
   // La funcion debe obtener el factor primo mas grande del numero recibido
   // tu codigo AQUI:
 
-  let primoMayor = 1
-
-  while (num % 2 === 0){
-    primoMayor = num // corroborar si es divisible y almacenarlo
-    num = num / 2   // reduccion del numero recibido
-  }
-
-  for (let i = 3; i <= Math.sqrt(num); i = i + 2){ // investigar
-    while (num % i === 0){
-      primoMayor = i
-      num = num / i
-    }
-  }
-
-  if (num > 2){
-      primoMayor = num
-    }
-
-  return primoMayor
-
 }
 
 
@@ -92,12 +72,14 @@ const tripleteDePitagoras = (numTotal) => {
   return numTotal
 }
 
+// 10. 10001st prime
 
-
-
-
-console.log(aritmeticProblems("410+45/4*3"))
-console.log(fibonacci(45))
+const stPrime = (n) => {
+  // Al enumerar los primeros seis numeros primos, nos encontramos que tenemos:
+  // 2, 3, 5, 7, 11 y 13, y podemos ver que el sexto numero primo es el 13
+  // What is the nth prime number?
+  return n
+}
 
 
 
