@@ -91,6 +91,7 @@ module.exports = {
     fibonacciEvenSum,
     largestPrimeFactor,
     polindromes,
-    tripleteDePitagoras
+    tripleteDePitagoras,
+    stPrime
 
 }
