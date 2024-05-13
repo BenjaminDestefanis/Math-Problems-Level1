@@ -20,10 +20,20 @@ const primosGemelos = (limit) => {
 
  }
 
+ // 3.
+
 
 module.exports = {
     primosGemelos,
     calcularInteresCompuesto
 }
 
-// 2. 
+// 2. Calculo de media aritmetica
+
+const calularMediaAritmetica = (numbers) => {
+    // La funcion recibe un array de numeros, se debe calcular la media aritmetica
+    // de essos numeros y devolver la media
+    // TU CODIGO AQUI:
+
+    return numbers
+}
