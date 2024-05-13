@@ -20,14 +20,6 @@ const primosGemelos = (limit) => {
 
  }
 
- // 3.
-
-
-module.exports = {
-    primosGemelos,
-    calcularInteresCompuesto
-}
-
 // 2. Calculo de media aritmetica
 
 const calularMediaAritmetica = (numbers) => {
@@ -36,4 +28,24 @@ const calularMediaAritmetica = (numbers) => {
     // TU CODIGO AQUI:
 
     return numbers
+}
+
+// 3. Multiplicacion de Matrices
+
+const matricesProduct = (matriz1, matriz2) => {
+    // La funcion recibe 2 matrices (arrays) , a su vez cada matriz 2 arrays (EJ: [[], []])
+    // La funcion de cumplir con lo siguiente:
+    // - Verificar si se pueden multiplicar las matrices - 
+    // - Si no se pueden multiplicar retornar el mensaje "Matrices incompatibles"
+    // - En caso de que se pueda, retornar una nueva matriz con nuevos resultados 
+    // - Si ambas matrices son unidimensionales (tienen una sola fila o una sola columna)
+    // - Debe retornar el mensaje, "Son Matrices unidimensionales"
+    // (EJ - Entrada: matriz1 = [[3, 2, 5], [3, 1, 5]]. matriz2 = [[23, 2, 9], []])
+    // TIP : Recorda que la regla en algebra lineal es que para que las 
+}   
+
+
+module.exports = {
+    primosGemelos,
+    calcularInteresCompuesto
 }
