@@ -44,19 +44,30 @@ const matricesProduct = (matriz1, matriz2) => {
     // TIP : Recorda que la regla en algebra lineal es que para que las 
 }   
 
-// 4. Determinante de Matrices 2x2
+// 4. Calcular Determinante de Matrices 2x2
 
 const determinatMatrizTwoByTwo = (matriz) => {
     return matriz
 }
 
-// 5. Determinate de Matrices 3x3
+// 5. Calcular Determinate de Matrices 3x3
 
 const determinatMatrizThreeByThree = (matriz) => {
-    
+
+// 6. Suma de vectores en 2 dimensiones
+
+const vectorsSumTwoDimensions = () => {
+
+}
+
+
+
 }
 
 module.exports = {
     primosGemelos,
-    calcularInteresCompuesto
+    calcularInteresCompuesto,
+    matricesProduct,
+    determinatMatrizTwoByTwo,
+    determinatMatrizThreeByThree
 }
